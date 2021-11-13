@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&family=Yuji+Mai&display=swap");
+
+body {
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+}
+#heading {
+  font-size: 3.5rem;
+  margin: 6rem 0 3rem 0;
+  color: #b91646;
+  text-transform: uppercase;
+}
+
+#counter-body {
+  border: 2px solid #2f86a6;
+  border-radius: 10px;
+  margin: 0 30rem;
+  padding: 4rem 0;
+}
+
+#watch {
+  font-size: 4rem;
+}
+
+#btns {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+button {
+  margin: 0 1rem;
+  width: 5rem;
+  height: 2.5rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  background-color: #fef5eda2;
+  border-radius: 5px;
+  border: none;
+}
+
+button:hover {
+  padding: 9px 0;
+}
+
+#stop {
+  color: #b91646;
+  border: 2px solid #b91646;
+}
+
+#pause {
+  color: #f0a500;
+  border: 2px solid #f0a500;
+}
+
+#start {
+  color: #105652;
+  border: 2px solid #105652;
+}
+
+footer {
+  margin-top: 6rem;
+  color: #105652;
+  font-size: 1.8rem;
+}
+footer > span {
+  color: #b91646;
+}
